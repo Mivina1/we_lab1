@@ -2,45 +2,49 @@
 <html lang="uk">
 
 <head>
+    <meta charset="UTF-8">
+    <title>Novadays</title>
+    <style>
+        ul > li:nth-child(even) {
+            background-color: gray;
+            color: rgb(0, 0, 0);
+        }
 
-<meta charset="UTF-8">
-<title> Novadays </title>
-<style>
-ul > li:nth-child(even){
-background-color: gray;
-color: rgb(0, 0, 0);
-}
+        ol > li:nth-child(4) {
+            background-color: aqua;
+        }
 
-ol > li:nth-child(4){
-    background-color: aqua;
-}
-ol > li:hover:nth-child(3){
-    
-    cursor: pointer;
-}ol > li:hover:nth-child(5){
-    
-    cursor: pointer;
-}
-#main {
-  text-align: center;
-  font-size: 22px;
-}
-#back {
-  font-style: italic;
-}
-#center{
-    text-align: center;
-}
-</style>
+        ol > li:nth-child(3):hover {
+            cursor: pointer;
+        }
+
+        ol > li:nth-child(5):hover {
+            cursor: pointer;
+        }
+
+        #main {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        #back {
+            font-style: italic;
+        }
+
+        #center {
+            text-align: center;
+        }
+    </style>
 </head>
+
 <body>
-<h1 id="main">Сьогодення Коваленка Олександра Олександровича</h1>
+    <h1 id="main">Сьогодення Коваленка Олександра Олександровича</h1>
 
-<p><a id="back" href="index.html">Назад на головну</a></p>
+    <p><a id="back" href="index.html">Назад на головну</a></p>
 
-<h2 id= "center" >Мій типовий список покупок</h2>
-<ul id="2"> 
-    
+    <h2 id="center">Мій типовий список покупок</h2>
+    <ul id="shopping-list">
+
         <li>Фрукти:
             <ul>
                 <li>Яблука</li>
@@ -69,9 +73,9 @@ ol > li:hover:nth-child(3){
             </ul>
         </li>
     </ul>
-    
+
     <h2>Мій улюблений десерт</h2>
-    
+
     <ol>
         <li>Приготувати тісто:
             <ol>
@@ -88,6 +92,6 @@ ol > li:hover:nth-child(3){
         <li>Бажано посипати цукровою пудрою</li>
         <li>Подавати теплими</li>
     </ol>
-    
 </body>
+
 </html>
