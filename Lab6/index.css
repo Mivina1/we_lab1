@@ -1,1 +1,37 @@
+#qwe:visited{
+    color:red;
+}
+
+#qw:visited{
+    color: teal;
+}
+
+#wq:visited{
+    color: green;
+}
+#vs:visited{
+    color: brown;
+}
+
+#qwe:link{
+    color: blue;
+}
+
+#qw:link{
+    color: violet;
+}
+
+#wq:link{
+    color: rgb(128, 117, 0);
+}
+#vs:link{
+    color: rgb(17, 166, 204);
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+}
+p{
+    font-size: 120%;
+}
 
