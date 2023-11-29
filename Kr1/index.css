@@ -1,1 +1,32 @@
+.c1 {
 
+background-color: cadetblue;
+
+}
+
+.c2 {
+background-color: aquamarine;
+
+}
+
+.c3 {
+background-color: burlywood;
+
+}
+.c4 {
+
+    background-color: brown;
+}
+
+.pic {
+
+    padding: 10px 20px;
+    background-color: white;
+    display: inline-block;
+    border: 3px solid black;
+    font-size: 120%;
+}
+.puk {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
